@@ -800,12 +800,12 @@ p:last-child {
 }
 
 .bg-image-03:before {
-  background: url(../media/bg/image-03@2x.jpg);
+  background: url(../media/bg/morning-sermon-buildingx1440.png);
 }
 
 @media only screen and (max-width: 479px) {
   .bg-image-03:before {
-    background: url(../media/bg/image-03.jpg);
+    background: url(../media/bg/morning-sermon-buildingx720.png);
   }
 }
 
