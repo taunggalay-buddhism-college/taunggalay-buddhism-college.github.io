@@ -790,12 +790,12 @@ p:last-child {
 }
 
 .bg-image-02:before {
-  background: url(../media/bg/image-02@2x.jpg);
+  background: url(../media/bg/image-02@2x.jpeg);
 }
 
 @media only screen and (max-width: 479px) {
   .bg-image-02:before {
-    background: url(../media/bg/image-02.jpg);
+    background: url(../media/bg/image-02.jpeg);
   }
 }
 
