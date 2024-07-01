@@ -765,7 +765,7 @@ p:last-child {
 
 /* Overlays */
 [class*="bg-image-"].overlay:after {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .dark[class*="bg-image-"].overlay:after {
