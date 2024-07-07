@@ -795,6 +795,7 @@ p:last-child {
 }
 
 .bg-image-03:before {
+  right: 10%;
   background: url(../media/bg/morning-sermon-buildingx1440.png);
 }
 
