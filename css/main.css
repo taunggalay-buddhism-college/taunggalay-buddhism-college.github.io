@@ -795,7 +795,7 @@ p:last-child {
 }
 
 .bg-image-03:before {
-  right: 10%;
+  /* right: 10; */
   background: url(../media/bg/morning-sermon-buildingx1440.png);
 }
 
@@ -909,6 +909,13 @@ p:last-child {
 .min-width-l {
   min-width: auto;
 }
+
+/* for course images in mobile screen view */
+@media only screen and (max-width: 479px) {
+  .min-width-l {
+    max-width: 60%;
+  }
+ }
 
 /* -----------------------------------------------------------------------------
 
