@@ -903,7 +903,7 @@ p:last-child {
 }
 
 .min-width-m {
-  min-width: 800px;
+  min-width: auto;
 }
 
 .min-width-l {
