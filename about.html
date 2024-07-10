@@ -2,90 +2,68 @@
 <html lang="en">
 
 <head>
-    <title>Taunggalay Buddhism College</title>
+    <title>Taunggalay Buddhist College</title>
     <meta charset="utf-8" />
     <meta name="description"
-        content="A minimal and responsive HTML5 landing page built on lightweight, clean and customizable code." />
+        content="Taunggalay Buddhist College is a unique educational institution that aims to bridge the gap between traditional Buddhist teachings and modern scientific knowledge." />
     <meta name="viewport" content="width=device-width" />
     <link rel="apple-touch-icon-precomposed" href="media/favicon-tbc-logo.png" />
     <link rel="icon" href="media/favicon-tbc-logo.png" />
-    <link rel="mask-icon" href="media/favicon-tbc-logo.svg" color="rgb(36,38,58)" />
+    <link rel="mask-icon" href="media/favicon-tbc-logo.png" color="rgb(36,38,58)" />
     <link rel="shortcut icon" href="media/favicon-tbc-logo.png" />
     <link rel="stylesheet" href="css/main.css" />
-    <!-- <style>
-        * {
-            box-sizing: border-box;
-            list-style: none;
-            text-decoration: none;
-        }
-
+    <style>
         body {
-            background-color: yellow;
-            font-family: Roboto;
+            font-family: "Lato", Helvetica, sans-serif;
             margin: 0;
             padding: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            width: 100vw;
+            background-color: #f4f4f9;
         }
 
-        a {
-            display: block;
-            color: #000;
-        }
-
-        div {
-            border-radius: 20px;
-            box-shadow: 1px 3px 5px 1px rgb(0, 0, 0, 0.1);
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
+        .profile-container {
+            max-width: 90%;
+            margin: 50px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             padding: 20px;
-            height: 400px;
-            width: 300px;
         }
 
-        div:hover {
-            box-shadow: 2px 4px 6px 2px rgb(0, 0, 229, 2.5);
-        }
-
-        img {
-            border-radius: 50%;
-            box-shadow: 1px 3px 5px 1px rgb(0, 0, 0, 0.1);
-            height: 100px;
-            width: 100px;
-        }
-
-        h1 {
-            margin: 10px 0 0;
-        }
-
-        h3,
-        p {
-            margin: 5px;
-            padding: 0;
+        .profile-header {
             text-align: center;
         }
 
-        ul {
-            display: flex;
-            gap: 1rem;
-            margin: 12px 0 0;
-            padding: 0;
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #1645F5;
         }
 
-        li {
-            font-size: 25px;
+        .profile-name {
+            margin-top: 20px;
+            font-size: 24px;
+            color: #333;
         }
 
-        i:hover {
-            color: rgb(0, 0, 229, 2.5);
+        .profile-bio {
+            margin-top: 30px;
         }
-    </style> -->
+
+        .profile-bio h2 {
+            font-size: 20px;
+            color: #1645F5;
+            margin-bottom: 10px;
+        }
+
+        .profile-bio p {
+            font-size: 19px;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+    </style>
 </head>
 
 <body class="page page-home preload">
@@ -93,13 +71,13 @@
     <header class="header-main">
         <nav>
             <a href="index.html" class="logo" rel="home">
-                <img src="media/bg/Logo-370x370.png" alt="logo" width="" height="370">
+                <img src="media/logos/logo-370x370.png" alt="logo" width="" height="370">
 
                 <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24"><path d="M6.648 7.762c-.077-.11-.106-.245-.083-.376.024-.132.1-.248.21-.323l1.164-.8c1.536-1.076 3.406-1.486 5.25-1.16 3.82.673 6.373 4.32 5.704 8.113-.668 3.793-4.316 6.347-8.134 5.674-1.845-.326-3.462-1.35-4.485-2.813l-3.11-4.445c-.16-.23-.45-.33-.717-.245-.267.084-.45.33-.45.61C2 11.998 2 12 2 12c0 5.523 4.477 10 10 10s10-4.477 10-10S17.523 2 12 2C8.94 2 6.202 3.374 4.368 5.538c-.735.86-.794 2.11-.146 3.036 1.475 2.136 4.138 5.942 4.138 5.942.675.965 1.685 1.605 2.852 1.81 2.396.424 4.684-1.168 5.107-3.564.42-2.396-1.185-4.674-3.58-5.097-1.167-.205-2.335.05-3.36.77-.84.585-1.994.38-2.58-.458l-.152-.215z" fill="currentColor" /></svg> -->
 
                 <!-- <?xml version="1.0" encoding="UTF-8"?> -->
 
-                <span>Taunggalay Buddhism College</span></a>
+                <span>Taunggalay Buddhist College</span></a>
             <div class="nav-toggle"></div>
             <ul class="inline">
                 <li><a href="index.html">Home</a></li>
@@ -116,52 +94,150 @@
 
         <section class="bg-image-01 center full-screen middle overlay padding">
             <div class="max-width-m">
-                <h1>Taunggalay Buddhism College</h1>
+                <h1>Taunggalay Buddhist College</h1>
                 <p class="lead">Where Buddhism meets Science</p>
                 <!-- <a href="signup.html" class="button button-primary space-top" role="button">Get started, it's free!</a> -->
             </div>
         </section>
 
-        <!-- https://codepen.io/didiaio/pen/LYgmQvz -->
-
-        <!-- <a href="">
-            <div>
-                <img src="https://i.pinimg.com/originals/75/c5/dd/75c5dd8984e6f9403f6bceb91e19189c.jpg" alt="">
-                <h1>Jane Bright</h1>
-                <h3>Front End Developer</h3>
-                <p>This is a retro themed colored card component with ui and ux design features that includes clickable
-                    and hover state</p>
-                <ul>
-                    <li><a href=""><i class="fa fa-whatsapp"></i></a></li>
-                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                    <li><a href=""><i class="fa fa-github"></i></a></li>
-                    <li><a href=""><i class="fa fa-codepen"></i></a></li>
-                </ul>
-            </div>
-        </a> -->
-
         <section class="bg-dark center-tablet dark padding">
             <div class="margin-bottom margin-top max-width-m">
                 <h2>About</h2>
-                <p class="lead">Taunggalay Buddhism College is a unique educational institution that aims to bridge the
+                <p class="lead">Taunggalay Buddhist College is a unique educational institution that aims to bridge the
                     gap between traditional Buddhist teachings and modern scientific knowledge. Located in the Karen
-                    State of Myanmar, this two-year degree program is designed to equip Theravada monks, nuns, and
+                    State of Myanmar, this two-year degree program is designed to equip bhikkhu, bhikkhunī, and
                     laypeople with a comprehensive understanding of both Buddhist philosophy and contemporary academic
                     disciplines.</p>
+
             </div>
         </section>
 
-        <section class="bg-light center padding">
+        <!-- https://codepen.io/didiaio/pen/LYgmQvz -->
+
+        <div class="profile-container">
+            <div class="profile-header">
+                <img src="media/content/founder-profile-pic.jpg" alt="Profile Picture" class="profile-pic">
+                <h1 class="profile-name">About the Founder: <br>Ven. Taunggalay Sayadaw</h1>
+            </div>
+            <div class="profile-bio">
+                <h2>Early life</h2>
+                <!-- <p>Early life
+                    Ven. Taunggalay Sayadaw was born Saw Phoe Thu to Aung Khin and Nan Sein Hla Khin on Thursday, 14
+                    July 1960
+                    (the 7th waning day of Warso in 1322 Myanmar era) in Hlar Ka Myin village in Hpa-an Township, Karen
+                    State, Burma. -->
+                <!-- Summarized by ChatGPT -->
+                <p>Ven. Taunggalay Sayadaw, born as Saw Phoe Thu to Aung Khin and Nan Sein Hla Khin on July 14, 1960,
+                    in Hlar Ka Myin village, Hpa-an Township, Karen State, Burma, began his monastic journey at the age
+                    of 8. On March 14, 1968, he was novitiated, and at 21, he was fully ordained as a Buddhist monk on
+                    March 21, 1981.</p>
+
+                <!-- <h2>Shin Paññāsāmī</h2>
+                <p>At the age of 8, he was novitiated on 14 March 1968 (the 7th waxing moon of Tapaung in the 1329
+                    Myanmar era),
+                    with Sayadaw Badanda Thuriya of Hlar Ka Myin Monastery as the preceptor and his parents as the
+                    organizer
+                    and supporter of the ordination ceremony.
+
+                    At the age of twenty-one, on 21 March 1981 (the 1st waxing moon of Tapaung in the 1342 Myanmar era),
+                    the novice Pinnyathami was fully ordained as a Buddhist monk; his preceptor was Bhaddanda Thuzarta,
+                    the Shwebo Kyaung Sayadaw in Hpa-An, and his parents supporting the ordination.</p> -->
+
+                <h2>Monkhood and awards</h2>
+                <!-- <p>The pursuit of monastic education by Sayadaw Ashin Pin Nya Tha Mi has been remarkable.
+                    He has passed many religious exams, some with honors: The Abhidharma exam,
+                    the Pali Pahtamapyan Examinations, the Thuthama Saya exam, the Thaddhama Parla exam,
+                    the Pidhakaya Paraku exam, Vinaya exam, and exam for a comparative study of world religions.
+                    In addition to these accomplishments, during 1989–1990, he informally learned Sanskrit
+                    and Pali from Dr. Zagara Abivansa, the Raza Giri Sayadaw of Sampurnanand Sanskrit Vishwavidyalaya
+                    and Nava Nalanda Mahavihara. Through continuous learning, Sayadaw's relentless efforts
+                    to seek wisdom have earned him an Hon. Doctor of Oriental Learning (Ph.D.) in history
+                    from the Indian Institute of Oriental Heritage, Kolkata, India in 2013. In November 2022,
+                    Sayadaw was awarded the honor of Thiri Pyanchi by the government of Myanmar. On January 4, 2023,
+                    Sayadaw was awarded the honor of Agga Maha Kammatthanacariya, the title of 'Great Noble Meditation
+                    Master',
+                    by the government of Myanmar.</p> -->
+                <!-- Summarized by ChatGPT -->
+                <p>Sayadaw Ashin Pin Nya Tha Mi has excelled in his monastic education, passing numerous religious exams
+                    with honors. His relentless pursuit of wisdom earned him an honorary Doctor of Oriental Learning
+                    (Ph.D.) in history from the Indian Institute of Oriental Heritage in 2013. His dedication was
+                    further recognized when he was awarded the Thiri Pyanchi honor in 2022 and the title of Agga Maha
+                    Kammatthanacariya in 2023 by the Myanmar government.</p>
+
+                <h2>Community work</h2>
+                <!-- <p>The Venerable Sayadaw has also engaged in several other religious and social activities such as
+                    preaching
+                    the Buddha's sermons, practicing and teaching mediations, renovating pagodas and taking
+                    the roles of National Sangha Committee members. He has renovated over 20 ancient pagodas and
+                    donated new Hti (umbrella crowns) around the country. He has also founded 10 monasteries and
+                    6 Monastic Education Schools in Kayin State to create broader access to education for children
+                    in rural areas and build an educated society.</p>
+
+                <p>Since 1993, Sayadaw has engaged in the Karen Peace Council (KPC) as a leading peace negotiator
+                    for the peace in Kayin State.[4] He has also served as a patron for the Myanmar Peace Foundation.
+                    In 2001, he established a social group called Phlon Education Development Unit (PEDU)
+                    and began extensive social and local development works in Kayin State. In 1996,
+                    he opened a monastic school for children from kindergarten through tenth grade.
+                    He also founded First Aid Groups in partnership with the Myanmar Red Cross
+                    and established the orthopedic rehabilitation center in Hpa-an township.
+                    On 10 September 2017, a completion ceremony for midwives training was held
+                    at the Taung Kalay Monastic School. Sayadaw also awards scholarships to outstanding students.
+                    He set up Nat Say Taman Scholarship Funds and provided financial assistance to students in Kayin
+                    State
+                    while serving as a patron for Karen Student Center (KSC), a boarding school for students
+                    from remote villages that lack access to education. In 2009, he went to Australia and established
+                    the Karen Melbourne Buddhist Association to promote Buddhism and provide spiritual counseling
+                    based on Buddha teaching to the Karen community there. He was officially awarded
+                    the honorary titles of Thaddhama Jotika Dhaja in 1991 and Maha Thaddhama Jotika Dhaja in 2001
+                    by the government of Myanmar. In 2002, Sayadaw also received the Buddhist Literature Award from
+                    Japan.</p>
+
+                <p>Due to his influential impact on the local community, he is frequently visited by politicians,
+                    government officials, Karen leaders, KNU officers, and many other local leaders.
+                    It is also reported that Taung Galay Sayadaw sent condolences to the passing
+                    of Padoh Saw David Taw who was the secretary of the KNU Peace Committee and
+                    also a member of a KNU delegation that negotiated peace with the Burmese government in January 2012.
+                </p> -->
+                <!-- Summarized by ChatGPT -->
+                <p>Sayadaw has been deeply involved in religious and social activities, including preaching, teaching
+                    meditation, renovating pagodas, and serving on the National Sangha Committee. He founded multiple
+                    monasteries and Monastic Education Schools in Kayin State, providing broader access to education. He
+                    has also been a leading peace negotiator for the Karen Peace Council since 1993 and established
+                    several social and development projects, including the Phlon Education Development Unit, First Aid
+                    Groups, and the orthopedic rehabilitation center in Hpa-an Township.</p>
+
+                <h2>Activities abroad</h2>
+                <!-- <p>The Venerable Sayadaw has traveled extensively. He has traveled to India, Nepal, and Sri Lanka in
+                    1994,
+                    Thailand and Singapore in 1997, Japan in 2000, Australia in 2009, and America in 2015,
+                    and conducted Dhamma talks with the Myanmar community in those countries as well as to citizens
+                    of those countries. His remarkable works for humanity have greatly inspired thousands of people
+                    to lead a good life and make a difference in their community and country.
+                    With the motto “Toward the peaceful state of Nirvana,”
+                    the Venerable Sayadaw Ashin Pin Nya Tha Mi continues
+                    to write books and articles while practicing and teaching meditation.</p> -->
+                <!-- summarized by ChatGPT -->
+                <p>Ven. Taunggalay Sayadaw has traveled extensively, sharing his teachings and inspiring people
+                    worldwide. His travels include India, Nepal, Sri Lanka, Thailand, Singapore, Japan, Australia, and
+                    America, where he has conducted Dhamma talks and promoted Buddhism. His work has profoundly impacted
+                    communities, encouraging them to lead better lives and contribute positively to society. Sayadaw
+                    continues to write books and articles, spreading his message of peace and the path toward Nirvana.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- <section class="bg-light center padding">
             <div class="margin-bottom margin-top max-width-m">
                 <h2>Mission and Vision</h2>
-                <p class="lead">The college's motto, "The Fruition of the Holy Path Surpasses all," encapsulates its
+                <p class="lead">The college's motto, "The Fruition of Holy Path Surpasses all," encapsulates its
                     mission to provide a transformative educational experience that empowers students to deepen their
                     spiritual understanding while also cultivating practical skills and critical thinking abilities. The
-                    vision of Taunggalay Buddhism College is to become a leading center of excellence in the integration
+                    vision of Taunggalay Buddhist College is to become a leading center of excellence in the integration
                     of Buddhist wisdom and scientific inquiry, fostering a new generation of scholars and leaders who
                     can navigate the complexities of the modern world with compassion and wisdom.
             </div>
-        </section>
+        </section> -->
 
     </main>
 
@@ -169,24 +245,25 @@
         <div class="padding">
             <div class="row max-width-l">
                 <div class="col-one-fifth">
-                    <h6>Startup</h6>
+                    <h6>Exchange Programs</h6>
                     <ul class="blank">
-                        <li><a href="#">Getting Started</a></li>
-                        <li><a href="#">Resources</a></li>
-                        <!-- <li><a href="#">Design</a></li> -->
-                        <li><a href="#">Tutorials</a></li>
-                        <!-- <li><a href="#">Pricing</a></li> -->
+                        <li><a href="https://www.facebook.com/profile.php?id=100064552794214">Karen Buddhist Association
+                                of North
+                                Carolina</a></li>
+                        <li><a href="https://www.facebook.com/mkbavicaus">Melbourne Karen Buddhist Association</a></li>
                     </ul>
                 </div>
                 <div class="col-one-fifth">
-                    <h6>Support</h6>
+                    <h6>Volunteer Programs</h6>
+                    <ul class="blank">
+                        <li><a href="mailto:maharpyinnyar2020@gmail.com">Email Us</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-one-fifth">
+                    <h6>Design</h6>
                     <ul class="blank">
                         <li><a href="style-guide.html">Design System</a></li>
-                        <li><a href="#">Documentation</a></li>
-                        <li><a href="#">Requirements</a></li>
-                        <li><a href="#">License</a></li>
-                        <li><a href="#">Updates</a></li>
-                        <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-one-fifth">
@@ -199,7 +276,7 @@
                         <!-- <li><a href="#">Medium</a></li> -->
                     </ul>
                 </div>
-                <div class="col-two-fifths">
+                <!-- <div class="col-two-fifths">
                     <h6>Join The Newsletter</h6>
                     <p>Get the latest news and resources right into your inbox every monday.</p>
                     <form class="row reduce-spacing">
@@ -210,11 +287,10 @@
                             <a href="#" class="button button-primary button-m full-width" role="button">Subscribe</a>
                         </div>
                     </form>
-                </div>
+                </div> -->
             </div>
         </div>
-        <p class="copyright"><span>HTML Template by </span><a href="https://uiuxassets.com/" target="_blank">UI/UX
-                Assets</a><span> - © 2018, all rights reserved.</span></p>
+        <p class="copyright"><span>Copyright © 2024 TBC. All rights reserved.</span></p>
     </footer>
 
     <script src="js/jquery.min.js"></script>
