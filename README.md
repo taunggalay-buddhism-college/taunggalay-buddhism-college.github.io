@@ -1,1 +1,1 @@
-# taunggalay-buddhism-college.github.io
+# taunggalay-buddhist-college.github.io
